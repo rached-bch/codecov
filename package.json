@@ -13,13 +13,19 @@
   "scripts": {
     "pretest": "tsc -p .",
     "test": "nyc mocha",
-    "posttest": "nyc report --reporter=json && codecov -f coverage/*.json"
+    "posttest": "nyc report --reporter=json && codecov -f coverage/*.json -t 166a06e5-cf0f-4106-a56d-52ed8d141ad3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eddiemoore/example-typescript.git"
   },
-  "keywords": ["codecov", "typescript", "example", "code", "coverage"],
+  "keywords": [
+    "codecov",
+    "typescript",
+    "example",
+    "code",
+    "coverage"
+  ],
   "author": "Ed Moore <eddie.moore@gmail.com>",
   "license": "MIT",
   "bugs": {
